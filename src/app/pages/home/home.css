@@ -2,16 +2,19 @@
     overflow: hidden;
     min-height: 100vh;
 }
+
+.main {
+    padding: 111px 40px 40px;
+    position: relative;
+    display: flex;
+}
+
 .main-info {
     max-width: 840px;
     width: 100%;
     position: relative;
 }
-.main-info {
-    max-width: 840px;
-    width: 100%;
-    position: relative;
-}
+
 .main-title {
     margin-top: 98px;
     font-weight: 500;
@@ -75,6 +78,7 @@
     letter-spacing: -0.05em;
     color: #ECEDF04D;
 }
+
 .main-image {
     width: 1024px;
     top: 100px;
@@ -87,6 +91,7 @@
     height: auto;
     display: block;
 }
+
 @media (max-width: 1760px) {
     .main-title {
         font-size: 150px;
@@ -97,6 +102,7 @@
         max-width: 640px;
     }
 }
+
 @media (max-width: 1200px) {
     .main-info {
         max-width: 540px;
@@ -150,6 +156,7 @@
         max-width: 350px;
     }
 }
+
 @media (max-width: 570px) {
     .main-title {
         font-size: 88px;
@@ -176,6 +183,7 @@
         opacity: 0.2;
     }
 }
+
 @media (max-width: 400px) {
     .main-title {
         font-size: 70px;
